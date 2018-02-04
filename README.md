@@ -1,6 +1,7 @@
 # V4L4JOdroidC1C2
 V4L4J shared libs, JAR, and install script for dependencies. Video capture for Java operational on Odroid C1 and C2
-enable 32-bit architecture
+<p/>
+enable 32-bit architecture<br/>
 dpkg --add-architecture armhf
 install 32-bit libraries
 apt-get install libc6:armhf libncurses5:armhf libstdc++6:armhf
