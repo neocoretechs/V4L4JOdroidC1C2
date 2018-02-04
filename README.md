@@ -6,7 +6,7 @@ dpkg --add-architecture armhf<br/>
 install 32-bit libraries<br/>
 apt-get install libc6:armhf libncurses5:armhf libstdc++6:armhf<br/>
 <b>download and install java 8, 32-bit, from Oracle website<br/>
-update alternatives so the 32-bit version is the default java version:</b>
+update alternatives so the 32-bit version is the default java version:</b><br/>
 tar xvfz jdk-8u33-linux-arm-vfp-hflt.gz<br/>
 mkdir /usr/lib/jvm<br/>
 mv jdk1.8.0_33 /usr/lib/jvm/<br/>
